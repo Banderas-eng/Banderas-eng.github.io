@@ -1,0 +1,157 @@
+body{
+    background-color: #EDEFEE;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > h1{
+    text-align: center;
+    color: darkslategray;
+}
+
+.logo img{
+    width: 100px;
+    height: 30px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+
+@media(max-width:900px){
+    nav li{
+        display: inline-block;
+    }
+}
+
+@media(max-width:900){
+    nav a{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.5rem;
+    }
+}
+
+nav a{
+    text-decoration-line: none;
+    color: white;  
+}
+
+
+@media (max-width: 900px) {
+    nav{
+        background-color: rgb(58, 58, 58);
+        border-radius: 20px;
+        height: 50px;
+        padding-top: 2px;
+        padding-bottom: 3px;
+    }
+}
+
+.text{
+    background-image: url(back.jpg);
+    padding-top: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imp{
+    font-size: 2rem;
+    line-height: 2;
+    
+}
+
+@media(main-width:650px){
+    section{
+        display: flex;
+    }
+}
+
+article{
+    flex: 1;
+}
+
+article.ref{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(252, 204, 142);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+article.skill{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(252, 204, 142);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+article.prj{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(252, 204, 142);
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.skill:hover, .ref:hover, .prj:hover{
+    box-shadow: 0 0 0 3px rgb(119, 119, 119);
+    outline-style: none;
+    outline-color: transparent;
+    transition: 1s;
+    transition-timing-function: ease-out;
+    transform: translateY(10px);
+}
+
+footer{
+    display: flex;
+    padding-top: 10px;
+    background-color: darkgray;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer div{
+    flex: 1;
+}
