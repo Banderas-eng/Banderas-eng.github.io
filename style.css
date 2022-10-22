@@ -43,6 +43,10 @@ nav ul{
     text-align: center;
 }
 
+nav li{
+    display: inline-flex;
+}
+
 
 @media(max-width:900px){
     nav li{
@@ -61,10 +65,16 @@ nav ul{
 nav a{
     text-decoration-line: none;
     color: white;  
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav a:hover{
+    color: blue;
 }
 
 
-@media (max-width: 900px) {
+
     nav{
         background-color: rgb(58, 58, 58);
         border-radius: 20px;
@@ -72,7 +82,7 @@ nav a{
         padding-top: 2px;
         padding-bottom: 3px;
     }
-}
+
 
 .text{
     background-image: url(back.jpg);
