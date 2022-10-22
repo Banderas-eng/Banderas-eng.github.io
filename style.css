@@ -88,7 +88,7 @@ nav a{
     
 }
 
-@media(main-width:650px){
+@media(min-width:650px){
     section{
         display: flex;
     }
